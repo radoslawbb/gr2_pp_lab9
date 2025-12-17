@@ -59,12 +59,12 @@ int main()
     troj2.b = 5;
     troj2.c = 4;
 
-    cout << troj1.a << endl << troj1.b << endl << troj1.c << endl << endl << troj2.a << endl << troj2.b << endl << troj2.c << endl;
+    cout << "troj1: " << endl << troj1.a << endl << troj1.b << endl << troj1.c << endl << endl << "troj2: " << endl << troj2.a << endl << troj2.b << endl << troj2.c << endl;
 
     przepisanie(troj1, &troj2);
     cout << endl;
 
-    cout << troj1.a << endl << troj1.b << endl << troj1.c << endl << endl << troj2.a << endl << troj2.b << endl << troj2.c << endl;
+    cout << "troj1: " << endl << troj1.a << endl << troj1.b << endl << troj1.c << endl << endl << "troj2: " << endl <<  troj2.a << endl << troj2.b << endl << troj2.c << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
