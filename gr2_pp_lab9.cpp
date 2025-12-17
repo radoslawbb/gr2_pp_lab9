@@ -28,9 +28,7 @@ struct trojkat {
 };
 
 void przepisanie(trojkat trojkat_1, trojkat* trojkat_2) {
-    (*trojkat_2).a = trojkat_1.a;
-    (*trojkat_2).b = trojkat_1.b;
-    (*trojkat_2).c = trojkat_1.c;
+    (*trojkat_2) = trojkat_1;
 }
 
 int main()
